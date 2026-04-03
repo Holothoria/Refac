@@ -20,6 +20,7 @@ type Room struct {
 	ID              int
 	Name            string
 	CreatedAt       time.Time
+}
 
 type Message struct {
 	ID               int
